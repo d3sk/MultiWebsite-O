@@ -1,0 +1,256 @@
+html {
+    font-family: Roboto;
+    margin: 0;
+}
+
+body {
+    background-image: url('../images/background2.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFDFD;
+    font-variant: normal;
+    font-weight: bold;
+    width: 25%;
+    /* padding-right: 7%;
+    padding-left: 7%; */
+}
+
+nav {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    background-color: #000000;
+    color: #FBFBFB;
+    text-align: center;
+    clear: both;
+    height: 55px;
+}
+
+.item-gallery {
+    height: 1000px;
+}
+
+.desc {
+    min-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.body-wrapper {
+    background-color: white;
+    /* padding: 5%; */
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    height: 1000px;
+}
+
+.navitem>div {
+    width: 100%;
+    text-align: center;
+}
+
+.navitem {
+    line-height: 55px;
+    width: 25%;
+    float: left;
+    transition: all 0.2s ease-in-out;
+}
+
+.navitem:hover {
+    font-size: 19px;
+    color: #73409c;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer>p {
+    line-height: 35px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logobar {
+    color: white;
+    height: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: pink; */
+    text-align: right;
+}
+
+.logoimg {
+    background-image: url('images/logosticker.png');
+    height: 90px;
+    width: 20%;
+    float: left;
+}
+
+.logotext {
+    float: left;
+    width: 80%;
+    font-family: Expletus Sans, Cursive;
+    font-size: 20px;
+    color: black;
+    text-shadow: 0px 0px 21px rgba(255, 255, 255, 1);
+}
+
+section>.lefthalf {
+    width: 100%;
+    float: left;
+    height: auto;
+}
+
+.righthalf {
+    float: right;
+    text-align: right;
+}
+
+section>.righthalf {
+    width: 30%;
+    float: left;
+    height: auto;
+}
+
+section>.righthalf>img {
+    width: 50%;
+    float: left;
+    transition: all 0.2s ease-in-out;
+}
+
+h1 {
+    font-size: 44.5px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.lefthalf {
+    float: left;
+    width: 100%;
+    text-align: left
+}
+
+section>.righthalf>img:hover {
+    opacity: 0.4;
+}
+
+.icons {
+    height: 300px;
+    width: 100%;
+    position: center;
+    padding: 5px;
+}
+
+.fa {
+    padding: 20px;
+    align-content: center;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-android {
+    background: #a4c639;
+    color: white;
+}
+
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
+}
+
+.icons {
+    text-align: center;
+    padding: 50px;
+}
+
+div.gallery {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    width: 170px;
+    background-color: whitesmoke;
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    color: white;
+    opacity: 0.5;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}

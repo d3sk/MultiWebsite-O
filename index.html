@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Hockey Central</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Expletus+Sans:700i" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+	<nav>
+		<a href=""class="navitem">
+			<div class="navitem">
+				Home
+			</div>
+		</a>
+		<a href="about/about.html" class="navitem">
+			<div class="navitem">
+				About
+			</div>
+		</a>
+		<a href="shop/shop.html" class="navitem">
+			<div class="navitem">
+				Shop
+			</div>
+		</a>
+		<a href="../contact/contact.html" class="navitem">
+			<div class="navitem">
+				Contact
+			</div>
+		</a>
+	</nav>
+
+	<div class="logobar">
+		<div class="logoimg">
+			<img height="100px" width="200px" src="images/logosticker.png" alt="Logo Image">
+		</div>
+		<div class="logotext">
+			<img src="images/banner.png" alt="Hockey Central">
+
+		</div>
+	</div>
+	<audio autoplay>
+					<source src="des.mp3" type="audio/mpeg">
+				</audio>
+	<div class="body-wrapper">
+		<section class="asideright">
+			<div class="lefthalf">
+				<h1>Welcome to Hockey Central, the home of ice hockey.</h1>
+				<h2>"Send it!"</h2>
+
+				<div class="w3-content w3-display-container">
+					<img class="mySlides" src="images/deal.jpg" style="width:100%">
+					<img class="mySlides" src="images/X300R.jpg" style="width:100%">
+					<img class="mySlides" src="images/S160.jpg" style="width:100%">
+					<img class="mySlides" src="images/spray.jpg" style="width:100%">
+					<img class="mySlides" src="images/B1.jpg" style="width:100%">
+					<img class="mySlides" src="images/hit.jpg" style="width:100%">
+					<img class="mySlides" src="images/maxresdefault.jpg" style="width:100%">
+
+					<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+
+			
+			</div>
+			<div class="righthalf">
+				<h1>
+					Supported by:
+				</h1>
+
+				<img src="images/Auslogo.png" alt="AIHL">
+				<img src="images/natlogo.png" alt="NHL">
+				<img src="images/bauer.png" alt="Bauer">
+				<img src="images/easton.png" alt="Easton">
+				<img src="images/iihf.jpg" alt="IIHF">
+				<img src="images/IHA.jpg" alt="IHA">
+
+			</div>
+			<div class="adcontent">
+				<img class="image1" src="images/X300R.jpg" alt="300">
+				<img class="image1" src="images/1S.jpg" alt="1S">
+				<img class="image1" src="images/goalie.jpg" alt="goal">
+				<img class="image1" src="images/S160.jpg" alt="160">
+			</div>
+		</section>
+		<section>
+
+
+			<div class="bottomhalf">
+			</div>
+
+
+			<div class="icons">
+				<p style="font-size: 20px">Feel free to follow us on our social media platforms and keep updated with news and sales.</p>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				<a href="#" class="fa fa-pinterest"></a>
+				<a href="#" class="fa fa-skype"></a>
+				<a href="#" class="fa fa-android"></a>
+				<a href="#" class="fa fa-dribbble"></a>
+
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<p>(c) 2018 Hockey Central Pty Ltd</p>
+	</footer>
+</body>
+
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+		showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		if (n > x.length) {
+			slideIndex = 1
+		}
+		if (n < 1) {
+			slideIndex = x.length
+		}
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		x[slideIndex - 1].style.display = "block";
+	}
+</script>
+
+</html>
